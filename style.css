@@ -197,6 +197,7 @@ body{
     justify-content: center;
     align-items: center;
     gap: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .footer p{
     display: flex;
