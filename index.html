@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="content">
+        <div class="controlPanel">
+            <h1 id="controlsHeader">Controls</h1>
+            <label for="colorpicker">
+                <h3 id="colorHeader">Color</h3>
+            </label>
+            <div class="color-input-wrapper">
+                <input type="color" id="colorpicker" value="#000">
+            </div>
+            <h4>Dimensions</h4>
+            <div class="slidercontainer">
+                <input type="range" min="16" max="80" value="50" class="slider" id="dimension-range">
+                <h5 class="value">50</h5>
+            </div>
+            <button class="eraseButton">ERASE</button>
+        </div>
+        <div class="main">
+            <h1>ETCH-A-SKETCH</h1>
+            <div class="container">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Made by <a href="https://github.com/IordanisKokk/odin-etch-a-sketch" target="_blank"><img
+                    src="resources/github-mark-white.svg" alt="" width="20px"></a> IordanisKokk</p>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
